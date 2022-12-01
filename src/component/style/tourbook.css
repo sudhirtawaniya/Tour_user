@@ -1,0 +1,143 @@
+
+  .container_fr_tr{
+    width: 100%;
+  }
+  .body_fr_tr{
+    text-align: left;
+    width: 91%;
+    box-shadow: 1px -2px 10px #ccc;
+    margin-top: 15px;
+    display: flex;
+    padding: 3%;
+    flex-direction: column;
+    justify-content: center;
+    
+   
+  }
+  
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+ .condition{
+    width: 100%;
+    margin:20px 0;
+    display: flex;
+    justify-content: center;
+   
+    
+ }
+ .incl_fr_tr{
+   
+    margin: 2% 0;
+ }
+  .left_tr{
+  width: 100%;
+
+  display: flex;
+ 
+  
+  
+  flex-direction: column;
+  }
+
+  .dt_incl_fr_tr{
+      max-width: 100%;
+      padding: 10px;
+    
+   
+     max-height: fit-content;
+      text-align: left;
+     
+  }
+  .dt_incl_fr_tr h6{
+      margin-left: 2%;
+      margin-bottom: 1%;
+  }
+  .conditions_fr{
+      width: 95%;
+      box-shadow:5px 5px 10px #ccc;
+     
+     
+  }
+  .btn_fr{
+      width: 100%;
+      text-align: center;
+      margin:5% 0;
+  }
+  .pay_now_fr_tr{
+      background-color: rgb(213, 213, 22) !important;
+      width: 60%;
+      height:50px ;
+      
+  }
+  .form_tr{
+    min-width: 30%;
+    margin: 1.4% 3%;
+    margin-right: 0;
+    text-align: center;
+   max-height: fit-content;
+    padding: 1% 2%;
+    box-shadow: 0px 0px 2px #ccc;
+  }
+  .input_tr{
+    min-width:100%;
+    margin: 5% 0;
+  }
+  .inp{
+    min-width:95% !important;
+    color: violet !important;
+  }
+  table, th, td {
+  
+    border-collapse:collapse;
+    padding:10px;
+  }
+  .table{
+    width:100%;
+    display: flex;
+   
+    justify-content: center;
+  }
+  .incl_fr_tr{
+    border:0.0002em solid gray;
+    border-top: none;
+  }
+  .sticky {
+    position: fixed !important;
+    transition: all 0.3s;
+    top: 0;
+  left: 12px;
+  }
+  .top_header_tr{
+    display: flex;
+  transition: all 0.3s;
+ padding: 20px 0;
+ 
+  
+
+   background-color: #ffff;
+    width: 64%;
+   
+   
+   
+  }
+  .price_tr{
+    display: flex;
+    margin-left: 100px;
+  }
+  th:empty,td:empty{
+    display: none;
+  }
+ .ico{
+  min-width: 70px !important;
+  min-width: 70px !important;
+  border-collapse:collapse;
+  padding:10px;
+  width: 172px;
+  transition: all 5s !important;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid gray;
+ }

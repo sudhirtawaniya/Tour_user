@@ -1,0 +1,38 @@
+.txt_br{
+    position: absolute;
+    top:30%;
+ text-align: center;
+
+    margin: 0;
+}
+.txt_br h4{
+   
+   
+    
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+   
+}
+.txt_br h6{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+img{
+    position: relative;
+}
+.container_br{
+    position: relative;
+    top:70px;
+    margin: 10px 0;
+    max-width:100%;
+}
+.main_br{
+    margin-bottom: 40px;
+    width:100%;
+}
+.fl h6 span{
+    cursor: pointer;
+}

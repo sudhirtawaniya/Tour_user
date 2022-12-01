@@ -1,0 +1,92 @@
+.container_fe{
+    width:100%;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(rgba(0,5,15,.6),rgba(0,5,15,.6)),url(https://tourxpro-react.b-cdn.net/static/media/testi-shape-group.e80803120ca4033db917.png);
+}
+.ReviewContainer__Inner-sc-yv0v3c-0.jsaZzc.Card2__StyledReviewContainer-sc-1369qkp-0.jMqWmW{
+    background-color: #fff;
+}
+.card_fe{
+    background: #fff;
+    border-radius: 5px;
+   
+    margin-top: 20px;
+    min-height: 200px;
+    
+    padding: 5px 25px 25px;
+    position: relative;
+    transition: all .35s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.img_fe{
+    text-align: center;
+    transform: translateY(-24px);
+}
+.header_fe{
+    width: 90%;
+    padding-right: 30%;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.header_fe h2{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 42px;
+    margin-bottom: 5px;
+}
+.header_fe p{
+    font-size: 16px;
+    padding-top: 10px;
+    color: #fff;
+}
+.text_c_fe p{
+    color: #666;
+    font-size: 16px;
+    font-weight: 350;
+    line-height: 25px;
+    max-height: 200px;
+    overflow: hidden;
+    text-align: center;
+}
+.rating_fe{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+   
+}
+.swiper_fe{
+    width:90%;
+}
+.rating_fe .name h6{
+    color: #262339;
+    line-height: 1.2;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.rating_fe .rating{
+    margin-top: 2px;
+    text-align: right;
+}
+.card_fe:hover .img_fe{
+    visibility: hidden;
+}
+.card_fe:hover {
+    background-color:#212529b1;
+}
+.card_fe:hover .text_c_fe p ,.card_fe:hover .rating_fe .name h6{
+    color: #fff;
+}
